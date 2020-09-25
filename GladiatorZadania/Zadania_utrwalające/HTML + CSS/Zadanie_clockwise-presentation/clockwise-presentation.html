@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie zegarek ze zdjęciami</title>
+    <style>
+div{
+    position: absolute;
+    
+    animation: clock 12s linear infinite;
+}
+
+
+.cell{
+   
+    list-style-type: none;
+}
+
+
+
+li:nth-of-type(1){
+position: relative;
+top:50%;
+left: 50%;
+}
+
+@keyframes clock{
+    0%{
+        background: url("img1.jpg") no-repeat;
+
+    }
+    8% {background: url("godz1.jpg")  no-repeat  }
+    16%{
+        background: url("godz2.jpg") no-repeat;
+    }
+    24%{}
+}
+    </style>
+</head>
+<body>
+    <div class="presentation-clock">
+        <ul class="clock-cells">
+            <li class="cell">
+                <img />
+            </li>
+            <li class="cell">
+                <img />
+            </li>
+            <li class="cell">
+                <img />
+            </li>
+            <li class="cell">
+                <img />
+            </li>
+            <li class="cell">
+                <img />
+            </li>
+            <li class="cell">
+                <img />
+            </li>
+             <li class="cell">
+                <img />
+            </li>
+            <li class="cell">
+                <img />
+            </li>
+            <li class="cell">
+                <img />
+            </li>
+            <li class="cell">
+                <img />
+            </li>
+            <li class="cell">
+                <img />
+            </li>
+            <li class="cell">
+                <img />
+            </li>
+        </ul>
+        </div>
+</body>
+</html>
+
