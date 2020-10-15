@@ -1,0 +1,23 @@
+{
+  "name": "nieprzewidziane-i-sprawiajace-problemy-testy-js-react",
+  "version": "1.0.0",
+  "description": "Repozytorium z zadaniami",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Przemocny/nieprzewidziane-i-sprawiajace-problemy-testy-js-react.git"
+  },
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "Przemocny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Przemocny/nieprzewidziane-i-sprawiajace-problemy-testy-js-react/issues"
+  },
+  "homepage": "https://github.com/Przemocny/nieprzewidziane-i-sprawiajace-problemy-testy-js-react#readme",
+  "devDependencies": {
+    "@prettier/plugin-xml": "^0.7.2",
+    "prettier": "^2.0.5"
+  }
+}
