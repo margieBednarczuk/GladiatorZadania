@@ -9,9 +9,12 @@
 function clickLogger() {
   const idElement = event.target.id;
   const classElement = event.target.className;
-  console.log(
-    `Po kliknięciu id elementu: ${idElement} oraz klasa elementu: ${classElement}`
-  );
+  if (idElement !==null || className !== null){
+    console.log(
+        `Po kliknięciu id elementu: ${idElement} oraz klasa elementu: ${classElement}`
+      );
+  }
+
   event.preventDefault();
 }
 document.body.addEventListener("click", clickLogger);
