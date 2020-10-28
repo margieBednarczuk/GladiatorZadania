@@ -9,7 +9,7 @@
 function clickLogger() {
   const idElement = event.target.id;
   const classElement = event.target.className;
-  if (idElement !==null || className !== null){
+  if (idElement || classElement){
     console.log(
         `Po kliknięciu id elementu: ${idElement} oraz klasa elementu: ${classElement}`
       );
